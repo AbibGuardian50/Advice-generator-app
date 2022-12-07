@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution {
+    font-size: 0.5rem;
+}
+
+body {
+    font-size: 28px;
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(217, 19%, 24%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+button {
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 70%;
+    padding: 0.8rem;
+    margin-bottom: -1.7rem;
+    margin-top: 1rem;
+}
+
+.header {
+    display: inherit;
+    margin-bottom: 1.5rem;
+}
+
+.main-content {
+    background-color: hsl(217, 19%, 38%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33.25rem;
+    border-radius: 0.8rem;
+    margin-bottom: 2rem;
+    padding-top: 1.5rem;
+}
+
+.main-content h1 {
+    letter-spacing: 0.3rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: hsl(150, 100%, 66%);
+}
+
+.main-content p {
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: hsl(193, 38%, 86%);
+    margin-bottom: 1rem;
+    width: 95%;
+}
+
+.pattern {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    border: 1px solid hsl(217, 19%, 24%);
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 1rem;
+    }
+
+    .main-content {
+        width: 20rem;
+        border-radius: 0.3rem;
+    }
+
+    hr {
+        display: none;
+    }
+
+    button {
+        padding: 0.3rem;
+        border-color: hsl(150, 100%, 66%);
+        margin-bottom: -1.1rem;
+    }
+}
