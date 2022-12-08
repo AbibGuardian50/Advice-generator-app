@@ -13,7 +13,7 @@ function advice() {
     showRandomUserData = (randomUser) => {
 
 
-        let random = Math.floor(Math.random() * 5);
+        let random = Math.floor(Math.random() * 9);
         document.getElementById('quotes').innerText =
                `${randomUser[(random)].Advice}`
         

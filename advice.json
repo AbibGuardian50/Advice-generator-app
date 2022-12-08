@@ -18,6 +18,26 @@
  { 
 "ID":"120", 
 "Advice": "Wanting something does not give you the right to have it"
+ },
+
+ { 
+"ID":"121", 
+"Advice": "I'll travel far and wide, and journey on until every last page is filled"
+ },
+
+ { 
+"ID":"122", 
+"Advice": "Knowledge is power, and power is to be hoarded"
+ },
+ 
+ { 
+"ID":"123", 
+"Advice": "I teach my students with the expectation that one day, they will surpass me"
+ },
+
+ { 
+"ID":"124", 
+"Advice": "There is no shame in not knowing an answer, so long as you’re willing to learn"
  }
  
  ] 
