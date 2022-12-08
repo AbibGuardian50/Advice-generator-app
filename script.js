@@ -1,9 +1,5 @@
 function advice() {
-    window.onclick = () => {
-        randomUserGenerator()
-    }
-
-    const randomUserGenerator = () => {
+    
             fetch ("advice.json")
         .then((response) => {
             return response.json()
@@ -12,7 +8,7 @@ function advice() {
             console.log(data)
             showRandomUserData(data)
         })
-    }
+    
 
     showRandomUserData = (randomUser) => {
 
