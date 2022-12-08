@@ -16,8 +16,6 @@ function advice() {
 
     showRandomUserData = (randomUser) => {
 
-        // console.log(randomUser[0].Advice)
-        // console.log(randomUser[0].ID)
 
         let random = Math.floor(Math.random() * 5);
         document.getElementById('quotes').innerText =

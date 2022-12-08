@@ -68,10 +68,6 @@ button {
     align-items: center;
 }
 
-hr {
-    border: 1px solid hsl(217, 19%, 24%);
-}
-
 
 @media screen and (max-width: 480px) {
     body {
