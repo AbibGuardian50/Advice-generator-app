@@ -19,11 +19,14 @@ function advice() {
         // console.log(randomUser[0].Advice)
         // console.log(randomUser[0].ID)
 
-        document.getElementById('id').innerText =
-        `${randomUser[Math.floor(Math.random() * 5)].ID} `
-    
+        let random = Math.floor(Math.random() * 5);
         document.getElementById('quotes').innerText =
-        `"${randomUser[Math.floor(Math.random() * 5)].Advice}" `
+               `${randomUser[(random)].Advice}`
+        
+               document.getElementById('id').innerText =
+               `${randomUser[(random)].ID}`
+
+
 
     }
 }

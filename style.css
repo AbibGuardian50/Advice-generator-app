@@ -12,7 +12,7 @@
 body {
     font-size: 28px;
     font-family: 'Manrope', sans-serif;
-    background-color: hsl(217, 19%, 24%);
+    background-color: hsl(218, 23%, 16%); 
     margin: 0;
     padding: 0;
     display: flex;
@@ -36,7 +36,7 @@ button {
 }
 
 .main-content {
-    background-color: hsl(217, 19%, 38%);
+    background-color: hsl(217, 19%, 24%); 
     display: flex;
     justify-content: center;
     align-items: center;
