@@ -1,5 +1,4 @@
 function advice() {
-    
             fetch ("advice.json")
         .then((response) => {
             return response.json()
@@ -8,10 +7,8 @@ function advice() {
             console.log(data)
             showRandomUserData(data)
         })
-    
 
     showRandomUserData = (randomUser) => {
-
 
         let random = Math.floor(Math.random() * 9);
         document.getElementById('quotes').innerText =
@@ -19,8 +16,6 @@ function advice() {
         
                document.getElementById('id').innerText =
                `${randomUser[(random)].ID}`
-
-
 
     }
 }
