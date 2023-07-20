@@ -71,7 +71,7 @@ button {
 
 @media screen and (max-width: 480px) {
     body {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .main-content {
